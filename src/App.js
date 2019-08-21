@@ -30,11 +30,11 @@ const [ tigersScore, updateTigersScore] = useState(0);
       <section className="buttons">
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
-          <button onClick={() => updateLionsScore(lionsScore + 6)}className="homeButtons__touchdown">Home Touchdown</button>
+          <button onClick={() => updateLionsScore(lionsScore + 7)}className="homeButtons__touchdown">Home Touchdown</button>
           <button onClick={() => updateLionsScore(lionsScore + 3)} className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
-          <button onClick={() => updateTigersScore(tigersScore + 6)} className="awayButtons__touchdown">Away Touchdown</button>
+          <button onClick={() => updateTigersScore(tigersScore + 7)} className="awayButtons__touchdown">Away Touchdown</button>
           <button onClick={() => updateTigersScore(tigersScore + 3)} className="awayButtons__fieldGoal">Away Field Goal</button>
         </div>
       </section>
